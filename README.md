@@ -29,6 +29,13 @@ To install IPFM on your Linux machine, follow the steps below:
 
 `apt-get install ipfm`
 
+3. Change your configuration file
+
+`vi /etc/ipfm.conf`
+
+Make sure to know where to record your logs
+`FILENAME "/var/log/ipfm/internet-%Y_%m_%d-%H_%M"`
+
 
 ## Usage
 
@@ -52,7 +59,7 @@ The script will output the daily network usage statistics for the Celestia Node.
 
 ## Data Analysis
 
-Based on the provided data:
+Based on the provided data for RPC:
 
 <pre>2023-27-04
 In (MB): 3.2662
